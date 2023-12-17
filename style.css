@@ -1,0 +1,212 @@
+/*!
+Theme Name: Mangex partners
+Theme URI: https://www.fuerzastudio.com.br/
+Author: Mangex
+Author URI: https://www.fuerzastudio.com.br/
+Description: Another project developed for BlueStack.
+Version: 1.0.0
+Tested up to: 7.2
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: botlabs
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+body,
+p,
+h4,
+ul {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+.botspage {
+  background-color: #101319;
+  font-family: poppins;
+  padding-bottom: 32px;
+  overflow: hidden; }
+  .botspage .header {
+    padding: 17px 16px; }
+  .botspage .banner {
+    padding: 40px 25px 0; }
+  .botspage .img_wrapper {
+    text-align: center; }
+  .botspage .banner_img {
+    max-width: 100%; }
+    .botspage .text_content {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+  
+  .botspage .heading {
+    font-weight: bold;
+    font-size: 48px;
+    color: #ffbd0c; }
+  .botspage .description {
+    position: relative;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 14px;
+    color: #f4f9ff; }
+  .botspage .ellipse_wrp {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .botspage .bot_cards_list_wrp {
+    margin: 60px 0; }
+  .botspage .bot_cards_list {
+    display: grid;
+    justify-content: space-around;
+    margin: 0 auto; }
+  .botspage .bot_card {
+    display: flex;
+    flex-direction: column;
+    background-color: #181d26;
+    width: 337px;
+    margin-top: 40px;
+    border-radius: 16px;
+    overflow: hidden; }
+  .botspage .bot_img_wrp {
+    position: relative; }
+  .botspage .bot_bg_img {
+    height: 178px;
+    opacity: 0.4;
+    width: 100%; }
+  .botspage .bot_card:hover .bot_bg_img {
+    opacity: 1; }
+    .botspage .bot_avatar_and_count_wrp {
+      position: absolute;
+      left: 0;
+      top: 0;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 21px 30px 24px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .botspage .bot_avatar_and_count_wrp img {
+      width: 133px; /* Ubah ukuran lebar sesuai kebutuhan */
+      height: auto; /* Secara otomatis menyesuaikan tinggi agar tidak terdistorsi */
+  }  
+  .botspage .bot_server_count {
+    font-weight: 500;
+    font-size: 14px;
+    color: #1befd0; }
+    .botspage .bot_server_count::before {
+      content: "\A";
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: #1befd0;
+      display: inline-block;
+      margin-right: 9px;
+      vertical-align: middle; }
+  .botspage .bot_text_cntnt {
+    padding: 0 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1; }
+  .botspage .bot_name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #e5ebf8; }
+  .botspage .bot_description {
+    margin-top: 6px;
+    font-size: 14px;
+    color: #b2b8c4;
+    min-height: 84px; }
+  .botspage .bot_tags_list {
+    margin-top: 20px; }
+  .botspage .bot_tag {
+    display: inline-block;
+    background: #1b2433;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 8px 13px;
+    font-size: 12px;
+    color: #b2b8c4; }
+  .botspage .bot_btns_wrp {
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px solid #263247;
+    display: flex;
+    justify-content: space-between; }
+  .botspage .bot_btn {
+    flex-grow: 1;
+    text-align: center;
+    padding: 12px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: transparent;
+    color: #e5ebf8;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    background: linear-gradient(#181d26, #181d26) padding-box, linear-gradient(294.69deg, #5c62e8 -4.76%, #5ca5e8 94.08%) border-box; }
+    .botspage .bot_btn:not(:first-child) {
+      margin-left: 50px; }
+  .botspage .bot_btn:hover {
+    background: linear-gradient(294.69deg, #5c62e8 -4.76%, #5ca5e8 94.08%) border-box; }
+  .botspage .footer {
+    padding: 0 28px; }
+    .botspage .footer .cntnt {
+      text-align: center;
+      color: #8998bd;
+      font-weight: 500;
+      font-size: 20px; }
+    .botspage .footer .btn {
+      background: linear-gradient(294.69deg, #5c62e8 -4.76%, #5ca5e8 94.08%);
+      display: inline-flex;
+      align-items: center;
+      border-radius: 30px;
+      padding: 16px 38px;
+      margin-top: 35px; }
+      .botspage .footer .btn:hover {
+        background: linear-gradient(294.69deg, #5158f5 -4.76%, #4da1ee 94.08%); }
+    .botspage .footer .btn_title {
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 16px;
+      margin: 0 10px; }
+  @media (min-width: 1024px) {
+    .botspage .header {
+      padding: 13px 28px; }
+    .botspage .banner {
+      padding: 40px 170px 0;
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+      max-width: 1100px;
+      margin: 0 auto; }
+    .botspage .img_wrapper {
+      margin-left: 100px;
+      flex: 3; }
+    .botspage .text_content {
+      flex: 2;
+      display: block; }
+    .botspage .bot_cards_list_wrp {
+      margin: 0 0 80px 0;
+      background: url(assets/img/botsPage/mainBackground.png.html);
+      background-size: 100%; }
+    .botspage .bot_cards_list {
+      justify-content: space-between;
+      grid-template-columns: auto auto;
+      max-width: 800px; }
+    .botspage .bot_card {
+      margin-top: 80px; }
+    .botspage .footer {
+      padding: 33px 0;
+      margin: 0 32px;
+      border-radius: 50px;
+      background: url(assets/img/botsPage/footerLeftBgImage.png.html) bottom 27px left 30px/45px 60px no-repeat, url(assets/img/botsPage/footerRightBgImage.png.html) top 27px right 30px/60px 94px no-repeat, #181d26; } }
+  @media (min-width: 1200px) {
+    .botspage .bot_cards_list {
+      max-width: 1100px;
+      grid-template-columns: auto auto auto; } }
+
+/*# sourceMappingURL=botsPage.css.map */
